@@ -1,1 +1,43 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('/fonts/Quicksand-Regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Libre Caslon Text';
+    src: url('/fonts/LibreCaslonText-Regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Marcellus';
+    src: url('/fonts/Marcellus-Regular.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Kodchasan';
+    src: url('/fonts/Kodchasan-Regular.woff2') format('woff2');
+  }
+  
+  /* Utility classes for Tailwind */
+  .font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .font-libre-caslon {
+    font-family: 'Libre Caslon Text', serif;
+  }
+  
+  .font-marcellus {
+    font-family: 'Marcellus', serif;
+  }
+  
+  .font-kodchasan {
+    font-family: 'Kodchasan', sans-serif;
+  }
+
+  body{
+    font-family: 'Quicksand', sans-serif;
+  }
+  
 @import "tailwindcss";
+
