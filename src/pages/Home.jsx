@@ -2,6 +2,7 @@ import Button2 from "../components/Buttons/Button2"
 const Home = () => {
   return (
     <div>
+      
       <section className='w-full min-h-screen md:h-auto'>
         <div className='flex justify-between items-start w-full h-[600px]'>
           <div className='w-2/5 h-full flex'>
